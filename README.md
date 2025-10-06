@@ -130,7 +130,7 @@ Cosign stores signatures as OCI artifacts in the same registry; no internet or R
 
 ## Managing the Registry with Portainer
 
-Access Portainer web interface at `http://localhost:9000` to:
+Access Portainer web interface at `http://<REG_HOST>:9000` to:
 
 - View and manage containers (registry, portainer)
 - Monitor resource usage and logs
