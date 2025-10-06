@@ -1,0 +1,45 @@
+# Certificate and keys (sensitive)
+certs/
+*.key
+*.crt
+*.csr
+*.pem
+*.cnf
+*.srl
+
+# Registry data
+registry-data/
+data/
+
+# Portainer data
+portainer-data/
+
+# Cosign keys (sensitive)
+cosign.key
+cosign.pub
+
+# Database files
+*.db
+*.sqlite
+
+# Docker Compose override files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
